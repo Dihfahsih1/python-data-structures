@@ -34,11 +34,14 @@ class LinkedList:
       
     print(llstr)
     
+  def insert_values(self, data_list):
+    self.head = None
+    for data in data_list:
+      self.insert_at_end(data)
+    
 if __name__ == '__main__':
   ll = LinkedList()
-  ll.insert_at_end(100)
-  ll.insert_at_beginning(35)
-  ll.insert_at_beginning(5)
+  ll.insert_values(['Peter','John','Luke','Mathew','Mark'])
   
   ll.Print()
     
