@@ -46,12 +46,13 @@ class LinkedList:
       itr = itr.next
       
     return count
+  
     
 if __name__ == '__main__':
   ll = LinkedList()
   ll.insert_values(['Peter','John','Luke','Mathew','Mark'])
   ll.Print()
-    
+  print("length of the linked List: ",ll.get_length() )
 
   
 
