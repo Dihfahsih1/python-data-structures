@@ -92,7 +92,7 @@ if __name__ == '__main__':
   ll.insert_values(['Peter','John','Luke','Mathew','Mark'])
   ll.insert_at(2,"Acts")
   ll.Print()
-  #ll.remove_at()
+  ll.remove_at()
   
   print("length of the linked List: ",ll.get_length() )
 
